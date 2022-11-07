@@ -1,5 +1,5 @@
 # jenkins-pipeline-magento2.4.3-php7.4-docker
-We expext that you are on your local vm and you have to install your prerequsits/dependencies
+We expext that you are on your local vm **Ubunut** and you have to install your prerequsits/dependencies
 # Step1: Install Dependencies
 
 ## Install Docker
@@ -68,7 +68,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 sudo docker exec -it web bash
 ```
-### You must chande your admin names, email, admin user, password and baseurl
+### You must change your admin names, email, admin user, password and baseurl
 ```
 php bin/magento setup:install --admin-firstname=abdullah --admin-lastname=iftikhar --admin-email=iabdullah@focusteck.com --admin-user=abdullah --admin-password='Abdullah@6668' --base-url=http://192.168.56.128 --backend-frontname=admin --db-host=mysql --db-name=magento --db-user=root --db-password=root --use-rewrites=1 --language=en_US --currency=USD --timezone=America/New_York --use-secure-admin=0 --admin-use-security-key=1 --session-save=files --use-sample-data --elasticsearch-host=elasticsearch
 ```
