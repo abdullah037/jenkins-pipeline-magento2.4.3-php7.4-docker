@@ -1,5 +1,5 @@
 # jenkins-pipeline-magento2.4.3-php7.4-docker
-We expext that you are on your local vm **Ubunut** and you have to install your prerequsits/dependencies
+We expext that you are on your local vm **Ubuntu** and you have to install your prerequsits/dependencies
 # Step1: Install Dependencies
 
 ## Install Docker
